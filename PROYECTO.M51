@@ -1,0 +1,644 @@
+L51 CODE BANKING LINKER/LOCATOR V4.08.03        02/23/109  01:33:13  PAGE  1
+WIN32 L51 CODE BANKING LINKER/LOCATOR V4.08.03,  INVOKED BY:
+L51.EXE c:\documents and settings\mariela\escritorio\proyecto\temperatura.OBJ&
+  to  C:\DOCUMENTS AND SETTINGS\MARIELA\ESCRITORIO\PROYECTO\PROYECTO.ABS PR(C&
+:\DOCUMENTS AND SETTINGS\MARIELA\ESCRITORIO\PROYECTO\PROYECTO.M51) PW(80) RS(&
+128) ix 
+
+
+INPUT MODULES INCLUDED
+  C:\DOCUMENTS AND SETTINGS\MARIELA\ESCRITORIO\PROYECTO\TEMPERATURA.OBJ(TEMPERA&
+TURA)
+
+
+LINK MAP OF MODULE: C:\DOCUMENTS AND SETTINGS\MARIELA\ESCRITORIO\PROYECTO\PROYE&
+CTO.ABS (TEMPERATURA)
+
+    TYPE     BASE       LENGTH    RELOCATION     SEGMENT NAME
+    ----     ----       ------    ----------     ------------
+
+    * * * * * * *   DATA          M E M O R Y   * * * * * * *
+    REG      0000H      0008H     ABSOLUTE       "REG BANK 0"
+
+    * * * * * * *   CODE          M E M O R Y   * * * * * * *
+    CODE     0000H      0002H     ABSOLUTE       
+             0002H      0001H                    *** GAP ***
+    CODE     0003H      0002H     ABSOLUTE       
+             0005H      0006H                    *** GAP ***
+    CODE     000BH      0002H     ABSOLUTE       
+             000DH      0006H                    *** GAP ***
+    CODE     0013H      0002H     ABSOLUTE       
+             0015H      0006H                    *** GAP ***
+    CODE     001BH      0002H     ABSOLUTE       
+             001DH      00E3H                    *** GAP ***
+    CODE     0100H      0106H     ABSOLUTE       
+             0206H      004AH                    *** GAP ***
+    CODE     0250H      0266H     ABSOLUTE       
+
+EXECUTABLE SUMMARY:
+-------------------
+    Total INTERNAL storage requirement:  0008H (8)
+    Total EXTERNAL storage requirement:  0000H (0)
+    Total   CODE   storage requirement:  0376H (886)
+Note:  Summary does not include dynamic stack requirements
+
+
+REFERENCE MAP OF MODULE: C:\DOCUMENTS AND SETTINGS\MARIELA\ESCRITORIO\PROYECTO\&
+PROYECTO.ABS (TEMPERATURA)
+
+SEGMENT
+   +-->CALLED SEGMENT
+---------------------
+
+SYMBOL TABLE FOR C:\DOCUMENTS AND SETTINGS\MARIELA\ESCRITORIO\PROYECTO\PROYECTO&
+.ABS(TEMPERATURA)
+-------------------------------------------------------------------------------&
+------------------
+
+    VALUE              TYPE               NAME
+    -----              ----               ----
+
+	-------            MODULE             TEMPERATURA
+	C:016FH            SYMBOL             DECENA
+	C:01B7H            SYMBOL             BAJAR
+	C:02F7H            SYMBOL             DIV_1_DECIMAL
+	C:04B4H            SYMBOL             TERMINAR
+	C:01E1H            SYMBOL             SEGUIR_UNIDAD_BAJAR
+	C:01BEH            SYMBOL             PREG_UNIDAD
+	C:019EH            SYMBOL             SEGUIR_UNIDAD
+	C:014CH            SYMBOL             BARRIDO
+	C:038AH            SYMBOL             COMIENZO_DEFINIR
+L51 CODE BANKING LINKER/LOCATOR V4.08.03          02/23/109  01:33:13  PAGE  2
+
+	C:01A9H            SYMBOL             SUBIR_DECENA
+	C:01FCH            SYMBOL             TABLA
+	C:0275H            SYMBOL             DIVISION
+	C:0181H            SYMBOL             SUBIR
+	C:0422H            SYMBOL             DIV_1_TIMERS
+	C:0135H            SYMBOL             RUTINAS
+	C:0188H            SYMBOL             FALTA
+	C:037DH            SYMBOL             AJ_RESTA
+	C:0250H            SYMBOL             LECTOR
+	C:0439H            SYMBOL             TRABA
+	C:039CH            SYMBOL             UMUL16
+	C:032BH            SYMBOL             AJ_DECENA
+	C:02DAH            SYMBOL             DIV_LOOP_DECIMAL
+	C:0258H            SYMBOL             INICIO_LECTURA
+	C:0166H            SYMBOL             CICLO
+	C:014CH            SYMBOL             EMPIEZA
+	C:0339H            SYMBOL             AJ_ELECCION
+	C:030EH            SYMBOL             AJUSTE
+	C:02D3H            SYMBOL             UDIV16_DECIMAL
+	C:01CCH            SYMBOL             BAJAR_DECIMAL
+	C:0405H            SYMBOL             DIV_LOOP_TIMERS
+	C:014CH            SYMBOL             DECIMAL
+	C:043BH            SYMBOL             FIN_TIMERS
+	C:01FBH            SYMBOL             TERMINABAJAR
+	C:0468H            SYMBOL             TIMER0
+	C:0402H            SYMBOL             UDIV16_TIMERS
+	C:04A3H            SYMBOL             TIMER1
+	C:02C9H            SYMBOL             DIVISION_DECIMAL
+	C:02A3H            SYMBOL             DIV_1
+	C:0250H            SYMBOL             COMIENZO_LECTURA
+	C:018FH            SYMBOL             SUBIR_DECIMAL
+	C:01DAH            SYMBOL             BAJAR_UNIDAD
+	C:043DH            SYMBOL             PWM
+	C:038AH            SYMBOL             DEFINIR_TIMERS
+	C:015FH            SYMBOL             UNIDAD
+	C:03EAH            SYMBOL             DIV_TIMERS
+	C:043DH            SYMBOL             COMIENZO_PWM
+	C:036EH            SYMBOL             NO_PIDO_UNO
+	C:0197H            SYMBOL             SUBIR_UNIDAD
+	C:0100H            SYMBOL             INICIO
+	C:0286H            SYMBOL             DIV_LOOP
+	C:01C5H            SYMBOL             PREG_DECIMAL
+	C:0176H            SYMBOL             CICLO2
+	C:0388H            SYMBOL             FIN
+	C:035AH            SYMBOL             PIDO_UNO
+	C:01D3H            SYMBOL             SEGUIR_DECIMAL
+	C:0156H            SYMBOL             CICLO3
+	C:0351H            SYMBOL             RESTA
+	C:031BH            SYMBOL             AJ_UNIDAD
+	C:027FH            SYMBOL             UDIV16
+	C:01ECH            SYMBOL             BAJAR_DECENA
+	C:01B6H            SYMBOL             TERMINASUBE
+	C:0000H            LINE#              7
+	C:0003H            LINE#              9
+	C:0013H            LINE#              11
+	C:000BH            LINE#              13
+	C:001BH            LINE#              15
+	C:0100H            LINE#              19
+	C:0102H            LINE#              20
+	C:0104H            LINE#              21
+	C:0106H            LINE#              22
+	C:0108H            LINE#              23
+	C:010AH            LINE#              24
+	C:010CH            LINE#              25
+	C:010EH            LINE#              26
+	C:0110H            LINE#              27
+	C:0113H            LINE#              28
+	C:0115H            LINE#              29
+L51 CODE BANKING LINKER/LOCATOR V4.08.03          02/23/109  01:33:13  PAGE  3
+
+	C:0117H            LINE#              30
+	C:0119H            LINE#              31
+	C:011CH            LINE#              32
+	C:011DH            LINE#              33
+	C:0120H            LINE#              34
+	C:0123H            LINE#              35
+	C:0126H            LINE#              36
+	C:0129H            LINE#              37
+	C:012CH            LINE#              38
+	C:012FH            LINE#              39
+	C:0132H            LINE#              40
+	C:0135H            LINE#              42
+	C:0137H            LINE#              43
+	C:0138H            LINE#              44
+	C:013AH            LINE#              45
+	C:013BH            LINE#              46
+	C:013DH            LINE#              47
+	C:013EH            LINE#              48
+	C:0140H            LINE#              49
+	C:0141H            LINE#              50
+	C:0143H            LINE#              51
+	C:0144H            LINE#              52
+	C:0146H            LINE#              53
+	C:0147H            LINE#              54
+	C:0149H            LINE#              55
+	C:014AH            LINE#              56
+	C:014CH            LINE#              60
+	C:014FH            LINE#              61
+	C:0151H            LINE#              62
+	C:0152H            LINE#              63
+	C:0154H            LINE#              64
+	C:0156H            LINE#              65
+	C:0157H            LINE#              66
+	C:015AH            LINE#              67
+	C:015CH            LINE#              68
+	C:015FH            LINE#              69
+	C:0161H            LINE#              70
+	C:0162H            LINE#              71
+	C:0164H            LINE#              72
+	C:0166H            LINE#              73
+	C:0167H            LINE#              74
+	C:016AH            LINE#              75
+	C:016CH            LINE#              76
+	C:016FH            LINE#              77
+	C:0171H            LINE#              78
+	C:0172H            LINE#              79
+	C:0174H            LINE#              80
+	C:0176H            LINE#              81
+	C:0177H            LINE#              82
+	C:017AH            LINE#              83
+	C:017CH            LINE#              84
+	C:017FH            LINE#              85
+	C:0180H            LINE#              87
+	C:0181H            LINE#              100
+	C:0183H            LINE#              101
+	C:0186H            LINE#              102
+	C:0188H            LINE#              104
+	C:018AH            LINE#              105
+	C:018DH            LINE#              106
+	C:018FH            LINE#              107
+	C:0191H            LINE#              108
+	C:0192H            LINE#              109
+	C:0194H            LINE#              110
+	C:0195H            LINE#              111
+	C:0197H            LINE#              112
+	C:0199H            LINE#              113
+	C:019CH            LINE#              114
+	C:019EH            LINE#              115
+L51 CODE BANKING LINKER/LOCATOR V4.08.03          02/23/109  01:33:13  PAGE  4
+
+	C:01A0H            LINE#              116
+	C:01A2H            LINE#              117
+	C:01A4H            LINE#              118
+	C:01A5H            LINE#              119
+	C:01A7H            LINE#              120
+	C:01A9H            LINE#              121
+	C:01ABH            LINE#              122
+	C:01ADH            LINE#              123
+	C:01AFH            LINE#              124
+	C:01B1H            LINE#              125
+	C:01B3H            LINE#              126
+	C:01B4H            LINE#              127
+	C:01B6H            LINE#              128
+	C:01B7H            LINE#              142
+	C:01B9H            LINE#              143
+	C:01BCH            LINE#              144
+	C:01BEH            LINE#              145
+	C:01C0H            LINE#              146
+	C:01C3H            LINE#              147
+	C:01C5H            LINE#              148
+	C:01C7H            LINE#              149
+	C:01CAH            LINE#              150
+	C:01CCH            LINE#              152
+	C:01CEH            LINE#              153
+	C:01D1H            LINE#              154
+	C:01D3H            LINE#              155
+	C:01D5H            LINE#              156
+	C:01D6H            LINE#              157
+	C:01D8H            LINE#              158
+	C:01DAH            LINE#              159
+	C:01DCH            LINE#              160
+	C:01DFH            LINE#              161
+	C:01E1H            LINE#              162
+	C:01E3H            LINE#              163
+	C:01E5H            LINE#              164
+	C:01E7H            LINE#              165
+	C:01E8H            LINE#              166
+	C:01EAH            LINE#              167
+	C:01ECH            LINE#              168
+	C:01EEH            LINE#              169
+	C:01F0H            LINE#              170
+	C:01F2H            LINE#              171
+	C:01F4H            LINE#              172
+	C:01F6H            LINE#              173
+	C:01F7H            LINE#              174
+	C:01F9H            LINE#              175
+	C:01FBH            LINE#              176
+	C:0250H            LINE#              189
+	C:0253H            LINE#              190
+	C:0256H            LINE#              191
+	C:0258H            LINE#              197
+	C:025AH            LINE#              198
+	C:025BH            LINE#              199
+	C:025CH            LINE#              200
+	C:025DH            LINE#              201
+	C:025EH            LINE#              202
+	C:025FH            LINE#              203
+	C:0260H            LINE#              204
+	C:0262H            LINE#              205
+	C:0263H            LINE#              206
+	C:0264H            LINE#              207
+	C:0265H            LINE#              208
+	C:0266H            LINE#              209
+	C:0267H            LINE#              210
+	C:0269H            LINE#              211
+	C:026BH            LINE#              212
+	C:026CH            LINE#              213
+	C:026FH            LINE#              214
+L51 CODE BANKING LINKER/LOCATOR V4.08.03          02/23/109  01:33:13  PAGE  5
+
+	C:0270H            LINE#              215
+	C:0273H            LINE#              216
+	C:0275H            LINE#              219
+	C:0277H            LINE#              220
+	C:0279H            LINE#              221
+	C:027BH            LINE#              222
+	C:027DH            LINE#              223
+	C:027FH            LINE#              225
+	C:0281H            LINE#              226
+	C:0283H            LINE#              227
+	C:0286H            LINE#              229
+	C:0287H            LINE#              230
+	C:0288H            LINE#              231
+	C:0289H            LINE#              232
+	C:028AH            LINE#              233
+	C:028BH            LINE#              234
+	C:028CH            LINE#              235
+	C:028DH            LINE#              236
+	C:028EH            LINE#              237
+	C:028FH            LINE#              238
+	C:0290H            LINE#              239
+	C:0291H            LINE#              240
+	C:0292H            LINE#              241
+	C:0293H            LINE#              242
+	C:0294H            LINE#              243
+	C:0295H            LINE#              244
+	C:0296H            LINE#              245
+	C:0298H            LINE#              246
+	C:0299H            LINE#              247
+	C:029AH            LINE#              249
+	C:029CH            LINE#              250
+	C:029DH            LINE#              251
+	C:029FH            LINE#              253
+	C:02A1H            LINE#              254
+	C:02A3H            LINE#              255
+	C:02A4H            LINE#              256
+	C:02A5H            LINE#              257
+	C:02A6H            LINE#              258
+	C:02A7H            LINE#              259
+	C:02A8H            LINE#              260
+	C:02A9H            LINE#              261
+	C:02ACH            LINE#              262
+	C:02ADH            LINE#              263
+	C:02AEH            LINE#              264
+	C:02AFH            LINE#              265
+	C:02B0H            LINE#              266
+	C:02B1H            LINE#              267
+	C:02B2H            LINE#              268
+	C:02B3H            LINE#              269
+	C:02B4H            LINE#              271
+	C:02B6H            LINE#              272
+	C:02B8H            LINE#              273
+	C:02BAH            LINE#              274
+	C:02BCH            LINE#              275
+	C:02BEH            LINE#              276
+	C:02C1H            LINE#              277
+	C:02C2H            LINE#              278
+	C:02C5H            LINE#              279
+	C:02C7H            LINE#              281
+	C:02C9H            LINE#              287
+	C:02CBH            LINE#              288
+	C:02CDH            LINE#              289
+	C:02CFH            LINE#              290
+	C:02D1H            LINE#              291
+	C:02D3H            LINE#              294
+	C:02D5H            LINE#              295
+	C:02D7H            LINE#              296
+	C:02DAH            LINE#              298
+L51 CODE BANKING LINKER/LOCATOR V4.08.03          02/23/109  01:33:13  PAGE  6
+
+	C:02DBH            LINE#              299
+	C:02DCH            LINE#              300
+	C:02DDH            LINE#              301
+	C:02DEH            LINE#              302
+	C:02DFH            LINE#              303
+	C:02E0H            LINE#              304
+	C:02E1H            LINE#              305
+	C:02E2H            LINE#              306
+	C:02E3H            LINE#              307
+	C:02E4H            LINE#              308
+	C:02E5H            LINE#              309
+	C:02E6H            LINE#              310
+	C:02E7H            LINE#              311
+	C:02E8H            LINE#              312
+	C:02E9H            LINE#              313
+	C:02EAH            LINE#              314
+	C:02ECH            LINE#              315
+	C:02EDH            LINE#              316
+	C:02EEH            LINE#              318
+	C:02F0H            LINE#              319
+	C:02F1H            LINE#              320
+	C:02F3H            LINE#              322
+	C:02F5H            LINE#              323
+	C:02F7H            LINE#              324
+	C:02F8H            LINE#              325
+	C:02F9H            LINE#              326
+	C:02FAH            LINE#              327
+	C:02FBH            LINE#              328
+	C:02FCH            LINE#              329
+	C:02FDH            LINE#              330
+	C:0300H            LINE#              331
+	C:0301H            LINE#              332
+	C:0302H            LINE#              333
+	C:0303H            LINE#              334
+	C:0304H            LINE#              335
+	C:0305H            LINE#              336
+	C:0306H            LINE#              337
+	C:0307H            LINE#              338
+	C:0308H            LINE#              339
+	C:030AH            LINE#              340
+	C:030CH            LINE#              341
+	C:030EH            LINE#              347
+	C:0310H            LINE#              348
+	C:0313H            LINE#              349
+	C:0314H            LINE#              350
+	C:0315H            LINE#              351
+	C:0317H            LINE#              352
+	C:0319H            LINE#              353
+	C:031BH            LINE#              354
+	C:031EH            LINE#              355
+	C:0320H            LINE#              356
+	C:0323H            LINE#              357
+	C:0324H            LINE#              358
+	C:0325H            LINE#              359
+	C:0327H            LINE#              360
+	C:0329H            LINE#              361
+	C:032BH            LINE#              362
+	C:032EH            LINE#              363
+	C:0330H            LINE#              364
+	C:0333H            LINE#              365
+	C:0334H            LINE#              366
+	C:0335H            LINE#              367
+	C:0337H            LINE#              368
+	C:0339H            LINE#              369
+	C:033CH            LINE#              370
+	C:033EH            LINE#              371
+	C:033FH            LINE#              372
+	C:0341H            LINE#              373
+L51 CODE BANKING LINKER/LOCATOR V4.08.03          02/23/109  01:33:13  PAGE  7
+
+	C:0343H            LINE#              374
+	C:0345H            LINE#              375
+	C:0347H            LINE#              376
+	C:034AH            LINE#              377
+	C:034CH            LINE#              378
+	C:034DH            LINE#              379
+	C:034FH            LINE#              380
+	C:0351H            LINE#              383
+	C:0352H            LINE#              384
+	C:0354H            LINE#              385
+	C:0356H            LINE#              386
+	C:0358H            LINE#              387
+	C:035AH            LINE#              388
+	C:035BH            LINE#              389
+	C:035DH            LINE#              390
+	C:035FH            LINE#              391
+	C:0361H            LINE#              392
+	C:0363H            LINE#              393
+	C:0364H            LINE#              394
+	C:0366H            LINE#              395
+	C:0368H            LINE#              396
+	C:036AH            LINE#              397
+	C:036CH            LINE#              398
+	C:036EH            LINE#              399
+	C:036FH            LINE#              400
+	C:0371H            LINE#              401
+	C:0373H            LINE#              402
+	C:0375H            LINE#              403
+	C:0377H            LINE#              404
+	C:0379H            LINE#              405
+	C:037BH            LINE#              406
+	C:037DH            LINE#              407
+	C:0380H            LINE#              408
+	C:0381H            LINE#              409
+	C:0382H            LINE#              410
+	C:0384H            LINE#              411
+	C:0386H            LINE#              412
+	C:0388H            LINE#              416
+	C:0389H            LINE#              417
+	C:038AH            LINE#              425
+	C:038CH            LINE#              426
+	C:038EH            LINE#              427
+	C:0390H            LINE#              428
+	C:0392H            LINE#              429
+	C:0394H            LINE#              430
+	C:0396H            LINE#              431
+	C:0398H            LINE#              432
+	C:039AH            LINE#              433
+	C:039CH            LINE#              434
+	C:039EH            LINE#              435
+	C:03A0H            LINE#              436
+	C:03A2H            LINE#              437
+	C:03A4H            LINE#              439
+	C:03A6H            LINE#              440
+	C:03A8H            LINE#              441
+	C:03A9H            LINE#              442
+	C:03ABH            LINE#              443
+	C:03ACH            LINE#              444
+	C:03AEH            LINE#              445
+	C:03B0H            LINE#              446
+	C:03B1H            LINE#              447
+	C:03B3H            LINE#              448
+	C:03B4H            LINE#              449
+	C:03B6H            LINE#              450
+	C:03B7H            LINE#              451
+	C:03B8H            LINE#              452
+	C:03B9H            LINE#              453
+	C:03BBH            LINE#              454
+L51 CODE BANKING LINKER/LOCATOR V4.08.03          02/23/109  01:33:13  PAGE  8
+
+	C:03BDH            LINE#              455
+	C:03BEH            LINE#              456
+	C:03C0H            LINE#              457
+	C:03C1H            LINE#              458
+	C:03C2H            LINE#              459
+	C:03C3H            LINE#              460
+	C:03C5H            LINE#              461
+	C:03C7H            LINE#              462
+	C:03C9H            LINE#              463
+	C:03CAH            LINE#              464
+	C:03CCH            LINE#              465
+	C:03CEH            LINE#              466
+	C:03CFH            LINE#              467
+	C:03D1H            LINE#              468
+	C:03D2H            LINE#              469
+	C:03D4H            LINE#              470
+	C:03D5H            LINE#              471
+	C:03D7H            LINE#              472
+	C:03D9H            LINE#              473
+	C:03DAH            LINE#              474
+	C:03DCH            LINE#              475
+	C:03DEH            LINE#              476
+	C:03E0H            LINE#              477
+	C:03E2H            LINE#              478
+	C:03E3H            LINE#              479
+	C:03E5H            LINE#              480
+	C:03E6H            LINE#              481
+	C:03E8H            LINE#              486
+	C:03EAH            LINE#              489
+	C:03ECH            LINE#              490
+	C:03EEH            LINE#              491
+	C:03F0H            LINE#              492
+	C:03F2H            LINE#              493
+	C:03F4H            LINE#              494
+	C:03F6H            LINE#              495
+	C:03F8H            LINE#              496
+	C:03FAH            LINE#              497
+	C:03FCH            LINE#              498
+	C:03FEH            LINE#              499
+	C:0400H            LINE#              500
+	C:0402H            LINE#              503
+	C:0405H            LINE#              506
+	C:0406H            LINE#              507
+	C:0407H            LINE#              508
+	C:0408H            LINE#              509
+	C:0409H            LINE#              510
+	C:040AH            LINE#              511
+	C:040BH            LINE#              512
+	C:040CH            LINE#              513
+	C:040DH            LINE#              514
+	C:040EH            LINE#              515
+	C:040FH            LINE#              516
+	C:0410H            LINE#              517
+	C:0411H            LINE#              518
+	C:0412H            LINE#              519
+	C:0413H            LINE#              520
+	C:0414H            LINE#              521
+	C:0415H            LINE#              522
+	C:0417H            LINE#              523
+	C:0418H            LINE#              524
+	C:0419H            LINE#              525
+	C:041BH            LINE#              526
+	C:041CH            LINE#              527
+	C:041EH            LINE#              529
+	C:0420H            LINE#              530
+	C:0422H            LINE#              531
+	C:0423H            LINE#              532
+	C:0424H            LINE#              533
+L51 CODE BANKING LINKER/LOCATOR V4.08.03          02/23/109  01:33:13  PAGE  9
+
+	C:0425H            LINE#              534
+	C:0426H            LINE#              535
+	C:0427H            LINE#              536
+	C:0428H            LINE#              537
+	C:042BH            LINE#              538
+	C:042CH            LINE#              539
+	C:042DH            LINE#              540
+	C:042EH            LINE#              541
+	C:042FH            LINE#              542
+	C:0430H            LINE#              543
+	C:0431H            LINE#              544
+	C:0432H            LINE#              545
+	C:0433H            LINE#              546
+	C:0435H            LINE#              547
+	C:0437H            LINE#              550
+	C:0439H            LINE#              551
+	C:043BH            LINE#              552
+	C:043CH            LINE#              553
+	C:043DH            LINE#              565
+	C:043FH            LINE#              566
+	C:0441H            LINE#              567
+	C:0443H            LINE#              568
+	C:0445H            LINE#              569
+	C:0447H            LINE#              570
+	C:0449H            LINE#              571
+	C:044BH            LINE#              572
+	C:044DH            LINE#              573
+	C:044FH            LINE#              574
+	C:0451H            LINE#              575
+	C:0452H            LINE#              577
+	C:0455H            LINE#              578
+	C:0457H            LINE#              579
+	C:0459H            LINE#              580
+	C:045BH            LINE#              581
+	C:045DH            LINE#              582
+	C:045FH            LINE#              583
+	C:0461H            LINE#              585
+	C:0463H            LINE#              586
+	C:0466H            LINE#              588
+	C:0468H            LINE#              590
+	C:046AH            LINE#              593
+	C:046CH            LINE#              594
+	C:046EH            LINE#              595
+	C:0470H            LINE#              597
+	C:0472H            LINE#              598
+	C:0474H            LINE#              599
+	C:0476H            LINE#              601
+	C:0478H            LINE#              602
+	C:047AH            LINE#              603
+	C:047CH            LINE#              604
+	C:047EH            LINE#              605
+	C:0480H            LINE#              606
+	C:0482H            LINE#              607
+	C:0484H            LINE#              608
+	C:0486H            LINE#              609
+	C:0488H            LINE#              611
+	C:048AH            LINE#              612
+	C:048CH            LINE#              613
+	C:048EH            LINE#              615
+	C:0491H            LINE#              616
+	C:0494H            LINE#              617
+	C:0497H            LINE#              618
+	C:049AH            LINE#              619
+	C:049CH            LINE#              621
+	C:049EH            LINE#              622
+	C:04A0H            LINE#              623
+	C:04A2H            LINE#              624
+	C:04A3H            LINE#              627
+L51 CODE BANKING LINKER/LOCATOR V4.08.03          02/23/109  01:33:13  PAGE 10
+
+	C:04A5H            LINE#              628
+	C:04A8H            LINE#              629
+	C:04ABH            LINE#              631
+	C:04ADH            LINE#              632
+	C:04AFH            LINE#              633
+	C:04B1H            LINE#              634
+	C:04B3H            LINE#              635
+	C:04B4H            LINE#              638
+	C:04B5H            LINE#              639
+	-------            ENDMOD             TEMPERATURA
+
+LINK/LOCATE RUN COMPLETE,  NO ERROR FOUND.
